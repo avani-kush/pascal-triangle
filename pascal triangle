@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+    // Write C code here
+    int i,j,space,c;
+    for(j=1;j<=6;j++){
+        for(space=0;space<6-i;space++){
+            printf(" ");
+        }
+            c=1;
+            for(i=1;i<=j;i++){
+                printf("%d ",c);
+                c=c*(j-i)/i;
+            }
+             printf("\n");
+        }
+
+    return 0;
+}
